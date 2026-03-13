@@ -8,7 +8,7 @@ const HF_API_KEY = process.env.HUGGINGFACE_API_KEY;
 const MODEL_URL = 'https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base';
 
 /**
- * Send image to Hugging Face BLIP model and return caption
+ * Send image to Hugging Face BLIP model and return caption----
  * @param {string} imagePath - Local path to uploaded image
  * @param {string} style - Caption style: 'default' | 'social' | 'alt'
  */
