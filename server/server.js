@@ -17,7 +17,7 @@ app.use('/api/caption', captionRoutes);
 
 // Health check
 app.get('/', (req, res) => {
-  res.json({ message: '🖼️ Image Caption Generator API is running!' });
+  res.json({ message: '🖼️ Image Caption Generator API is running ..!' });
 });
 
 app.listen(PORT, () => {
