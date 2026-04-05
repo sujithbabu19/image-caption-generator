@@ -21,7 +21,7 @@
 
 | Technology | Purpose |
 |---|---|
-| React + Vite | Frontend UI |
+| React + Vite | Frontend UI|
 | Node.js + Express | Backend API |
 | Hugging Face API | Vision AI model (BLIP / ViT-GPT2) |
 | Tailwind CSS | Styling |
