@@ -22,7 +22,7 @@ async function generateCaption(imagePath, style = 'default') {
     }
   });
 
-  const rawCaption = response.data[0]?.generated_text || 'No caption generated';
+  const rawCaption = response.data[0]?.generated_text || 'No caption Generated';
 
   // Style formatting (expand later)
   const styled = formatCaption(rawCaption, style);
