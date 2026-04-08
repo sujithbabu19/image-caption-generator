@@ -22,7 +22,7 @@ const upload = multer({
 // POST /api/caption — upload image and get caption
 router.post('/', upload.single('image'), async (req, res) => {
   try {
-    if (!req.file) return res.status(400).json({ error: 'No image uploaded' });
+    if (!req.file) return res.status(400).json({ error: ' alret No image uploaded' });
 
     const style = req.body.style || 'default';
     const caption = await generateCaption(req.file.path, style);
