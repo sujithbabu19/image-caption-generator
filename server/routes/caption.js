@@ -4,7 +4,7 @@ const { generateCaption } = require('../utils/huggingface');
 
 const router = express.Router();
 
-// Multer config — store in /uploads,accept image only
+// Multer config —store in /uploads,accept image only
 const storage = multer.diskStorage({
   destination: (req, file, cb) => cb(null, 'uploads/'),
   filename: (req, file, cb) => cb(null, `${Date.now()}-${file.originalname}`)
