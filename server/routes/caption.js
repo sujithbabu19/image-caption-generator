@@ -19,7 +19,7 @@ const upload = multer({
   limits: { fileSize: 5 * 1024 * 1024 } // 5MB max
 });
 
-// POST /api/caption — upload image and get caption
+// POST /api/caption — upload image and get captions
 router.post('/', upload.single('image'), async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ error: ' alret No image uploaded' });
