@@ -30,7 +30,7 @@ router.post('/', upload.single('image'), async (req, res) => {
     res.json({ caption, filename: req.file.filename });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Caption generation failed' });
+    res.status(500).json({ error: 'Caption generations failed' });
   }
 });
 
