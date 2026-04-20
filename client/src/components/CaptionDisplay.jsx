@@ -1,5 +1,5 @@
 export default function CaptionDisplay({ caption, loading }) {
-  if (loading) return <p className="text-blue-500 animate-pulse">🤖 Generating caption...</p>;
+  if (loading) return <p className="text-blue-500 animate-pulse">🤖 Generating caption..</p>;
   if (!caption) return null;
 
   const copy = () => navigator.clipboard.writeText(caption);
