@@ -13,7 +13,7 @@
 - 🤖 AI generates a natural language description
 - 📱 Get ready-to-use social media captions
 - ♿ Generate accessible alt text for web use
-- 🌍 Supports multiple caption styles and tones
+- 🌍 Supports multiple caption styles and tone
 
 ---
 
